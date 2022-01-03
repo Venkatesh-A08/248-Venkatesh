@@ -1,0 +1,14 @@
+G:\project\C#\Stack\bin\Debug\netcoreapp3.1\Stack.exe
+G:\project\C#\Stack\bin\Debug\netcoreapp3.1\Stack.deps.json
+G:\project\C#\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.json
+G:\project\C#\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.dev.json
+G:\project\C#\Stack\bin\Debug\netcoreapp3.1\Stack.dll
+G:\project\C#\Stack\bin\Debug\netcoreapp3.1\Stack.pdb
+G:\project\C#\Stack\obj\Debug\netcoreapp3.1\Stack.csproj.AssemblyReference.cache
+G:\project\C#\Stack\obj\Debug\netcoreapp3.1\Stack.GeneratedMSBuildEditorConfig.editorconfig
+G:\project\C#\Stack\obj\Debug\netcoreapp3.1\Stack.AssemblyInfoInputs.cache
+G:\project\C#\Stack\obj\Debug\netcoreapp3.1\Stack.AssemblyInfo.cs
+G:\project\C#\Stack\obj\Debug\netcoreapp3.1\Stack.csproj.CoreCompileInputs.cache
+G:\project\C#\Stack\obj\Debug\netcoreapp3.1\Stack.dll
+G:\project\C#\Stack\obj\Debug\netcoreapp3.1\Stack.pdb
+G:\project\C#\Stack\obj\Debug\netcoreapp3.1\Stack.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+G:\project\C#\Abstract\bin\Debug\netcoreapp3.1\Abstract.exe
+G:\project\C#\Abstract\bin\Debug\netcoreapp3.1\Abstract.deps.json
+G:\project\C#\Abstract\bin\Debug\netcoreapp3.1\Abstract.runtimeconfig.json
+G:\project\C#\Abstract\bin\Debug\netcoreapp3.1\Abstract.runtimeconfig.dev.json
+G:\project\C#\Abstract\bin\Debug\netcoreapp3.1\Abstract.dll
+G:\project\C#\Abstract\bin\Debug\netcoreapp3.1\Abstract.pdb
+G:\project\C#\Abstract\obj\Debug\netcoreapp3.1\Abstract.csproj.AssemblyReference.cache
+G:\project\C#\Abstract\obj\Debug\netcoreapp3.1\Abstract.GeneratedMSBuildEditorConfig.editorconfig
+G:\project\C#\Abstract\obj\Debug\netcoreapp3.1\Abstract.AssemblyInfoInputs.cache
+G:\project\C#\Abstract\obj\Debug\netcoreapp3.1\Abstract.AssemblyInfo.cs
+G:\project\C#\Abstract\obj\Debug\netcoreapp3.1\Abstract.csproj.CoreCompileInputs.cache
+G:\project\C#\Abstract\obj\Debug\netcoreapp3.1\Abstract.dll
+G:\project\C#\Abstract\obj\Debug\netcoreapp3.1\Abstract.pdb
+G:\project\C#\Abstract\obj\Debug\netcoreapp3.1\Abstract.genruntimeconfig.cache
