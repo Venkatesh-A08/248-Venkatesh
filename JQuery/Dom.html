@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQueryEX</title>
+    <script type = "text/javascript" 
+    src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+
+    <Script type="text/javascript" language = "javascript">
+        $(document).ready(function(){
+           $("div").click(function(){
+               var content = $(this).html()
+                $("#result").text(content)
+           })
+        })
+    </Script>
+    <style>
+        #division{
+            border: 2px solid;
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click Function</h1>
+    <span id="result"></span>
+    <div id="division">
+        click Here !!!
+    </div>
+</body>
+</html>
