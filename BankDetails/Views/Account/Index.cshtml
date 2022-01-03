@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1 style="text-align:center">XYZ Bank Of India</h1>
+<table style="text-align:center" border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+    </tr>
+    @foreach (var det in ViewData["Account"] as IList<Account>)
+            {
+                <tr>
+                    <td>@det.A_Id</td>
+                    <td>@det.A_Name</td>
+                    <td>@det.A_Address</td>
+                </tr>
+            }
+    <tr>
+        <th>Total Members</th>
+        <td>@ViewBag.Total</td>
+    </tr>
+</table>
