@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .flex_container_column{
+            display: flex;
+            background-color: coral;
+            flex-direction: column;
+        }
+        .flex_container_column_reverse{
+            display: flex;
+            background-color: coral;
+            flex-direction:column-reverse;
+        }
+        .flex_container_row{
+            display: flex;
+            background-color: coral;
+            flex-direction:row;
+        }
+        .flex_container_row_reverse{
+            display: flex;
+            background-color: coral;
+            flex-direction:row-reverse;
+        }
+        .flex_container_column .flex_container_column_reverse .flex_container_row .flex_container_row_reverse > div{
+            background-color: antiquewhite;
+            padding: 25px;
+            margin: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">FLEX-DIRECTION</h1>
+    <div class="flex_container_column">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+    &nbsp;
+    <div class="flex_container_column_reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    &nbsp;
+    <div class="flex_container_row">
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+    </div>
+    &nbsp;
+    <div class="flex_container_row_reverse">
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>

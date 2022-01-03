@@ -1,0 +1,23 @@
+UL.withsquare{list-style: square}
+UL.withdisc{list-style: disc}
+UL.withcircle{list-style: circle}
+OL.withupperRoman{list-style: upper-roman}
+OL.withlowerRoman{list-style: lower-roman}
+
+<!--Adjacent Selector-->
+h2 + p{ 
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul + h1{
+    color: brown;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+<!--Child-->
+ul > li {
+    list-style:armenian;
+}
+ol > li ol {
+    list-style:None;
+}

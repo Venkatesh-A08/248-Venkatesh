@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .flex_container_wrap{
+            display: flex;
+            background-color: coral;
+            flex-wrap: wrap;
+        }
+        .flex_container_nowrap{
+            display: flex;
+            background-color: coral;
+            flex-wrap: nowrap;
+        }
+        .flex_container_wrapReverse{
+            display: flex;
+            background-color: coral;
+            flex-wrap:wrap-reverse;
+        }
+        .flex_container_wrap > div,.flex_container_nowrap > div,.flex_container_wrapReverse > div{
+            background-color: antiquewhite;
+            padding: 25px;
+            margin: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex_container_nowrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    &nbsp;
+    <div class="flex_container_wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    &nbsp;
+    <div class="flex_container_wrapReverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>

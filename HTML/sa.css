@@ -1,0 +1,13 @@
+/* External css*/
+.sec{
+    border: solid; 
+    border-color: blue; 
+    text-align: left; 
+    padding: 10px;
+    padding-bottom: 20px;
+}
+#sec2{
+    padding: 20px; 
+    margin: 40px; 
+    text-align: center;
+}

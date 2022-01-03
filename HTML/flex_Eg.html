@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .flex_justifycontent_center{
+            display: flex;
+            background-color: coral;
+            justify-content: center;
+        }
+        .flex_justifycontent_start{
+            display: flex;
+            background-color: coral;
+            justify-content:flex-start;
+        }
+        .flex_justifycontent_end{
+            display: flex;
+            background-color: coral;
+            justify-content:flex-end;
+        }
+        .flex_justifycontent_SpaceAround{
+            display: flex;
+            background-color: coral;
+            justify-content:space-around;
+        }
+        .flex_justifycontent_SpaceBtwn{
+            display: flex;
+            background-color: coral;
+            justify-content:space-between;
+        }
+        .flex_justifycontent_center > div, .flex_justifycontent_end > div{
+            background-color: antiquewhite;
+            padding: 25px;
+            margin: 10px;
+            text-align: center;
+        }
+        .flex_justifycontent_start > div,.flex_justifycontent_SpaceAround > div,.flex_justifycontent_SpaceBtwn > div {
+            background-color: antiquewhite;
+            padding: 25px;
+            margin: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">justify-content</h1>
+    <h2>flex_justifycontent_center</h2>
+    <div class="flex_justifycontent_center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    &nbsp;
+    <h2>flex_justifycontent_end</h2>
+    <div class="flex_justifycontent_end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    &nbsp;
+    <h2>flex_justifycontent_startr</h2>
+    <div class="flex_justifycontent_start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    &nbsp;
+    <h2>flex_justifycontent_SpaceAround</h2>
+    <div class="flex_justifycontent_SpaceAround">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    &nbsp;
+    <h2>flex_justifycontent_SpaceBtwn</h2>
+    <div class="flex_justifycontent_SpaceBtwn">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>
