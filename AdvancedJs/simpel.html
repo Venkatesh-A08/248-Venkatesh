@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather</title>
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <section>
+
+    </section>
+
+    <script>
+        const header = document.querySelector('header');
+        const section = document.querySelector('section');
+        let requestURL = 'simpel.txt';
+        let request = new XMLHttpRequest();
+        request.open('GET',requestURL);
+        request.responseType = 'json';
+        request.send();
+
+        request.onload = function(){
+            const u1 = request.response;
+            func1(u1);
+            func2(u1);
+        }
+        function func1(u1){
+             const myH1 = document.createElement('h1');
+             myH1.textContent = "Details";
+             header.appendChild(myH1);
+        }
+        function func2(u1){
+            const data = u1['data']
+             for (let i = 0; i<data.length; i++){
+                const myArticle = document.createElement('article');
+                const para1 = document.createElement('p');
+                const para2 = document.createElement('p');
+                const para3 = document.createElement('p');
+
+                para1.textContent = "First Name: "+ data[i].first_name;
+                para2.textContent = "Last Name: "+ data[i].last_name;
+                para3.textContent = "E-Mail: "+ data[i].email;
+
+                myArticle.appendChild(para1);
+                myArticle.appendChild(para2);
+                myArticle.appendChild(para3);
+
+                section.append(myArticle)
+             }
+        }
+    </script>
+</body>
+</html>

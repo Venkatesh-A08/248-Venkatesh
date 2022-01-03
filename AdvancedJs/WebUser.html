@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Website Users</title>
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+
+      <script>
+          const header = document.querySelector('header');
+          const section = document.querySelector('section');
+
+          let requestURL = 'https://reqres.in/api/users?page=1';
+          let request = new XMLHttpRequest();
+          request.open('GET', requestURL);
+          request.responseType = 'json';
+          request.send();
+
+          request.onload = function(){
+
+              const websiteUsers = request.response;
+              populateHeader(websiteUsers);
+              showUser(websiteUsers);
+          }
+          function populateHeader(jsonObj){
+              const myH1 = document.createElement('h1');
+              myH1.textContent = "This is Users Details";
+              header.appendChild(myH1);
+
+              const myPara = document.createElement('p');
+              myPara.textContent = 'Total Users: ' + jsonObj['total'] + ' || Total Pages: ' + jsonObj['total_pages'];
+              header.appendChild(myPara);
+          }
+          function showUser(jsonObj){
+              const jsonData = jsonObj['data'];
+
+              for(let i =0; i< jsonData.length; i++){
+                const myArticle = document.createElement('article');
+                const myH2 = document.createElement('h2');
+                const para1 = document.createElement('p');
+                const para2 = document.createElement('p');
+                const para3 = document.createElement('p');
+                const imgage = document.createElement('img');
+
+                myH2.textContent = jsonData[i].id;
+                para1.textContent = "First Name: "+ jsonData[i].first_name;
+                para2.textContent = "Last Name: "+ jsonData[i].last_name;
+                para3.textContent = "E-Mail: "+ jsonData[i].email;
+                imgage.src = jsonData[i].avatar;
+
+                myArticle.appendChild(myH2);
+                myArticle.appendChild(para1);
+                myArticle.appendChild(para2);
+                myArticle.appendChild(para3);
+                myArticle.appendChild(imgage);
+
+                section.appendChild(myArticle);
+              }
+          }
+      </script>
+  </body>
+</html>

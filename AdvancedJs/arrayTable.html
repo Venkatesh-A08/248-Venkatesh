@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script>
+        var data = ["id", "Name", "01","Venkatesh","02","Deepak"];
+        var myTable = document.createElement("table"),
+        row = myTable.insertRow(), cell;
+        var perrow = 2;
+        data.forEach((value, i) => {
+            cell = row.insertCell();
+            cell.innerHTML = value;
+        var next = i + 1;
+        if (next%perrow==0 && next!=data.length) { row = myTable.insertRow(); }
+        });
+        document.getElementById("container").appendChild(myTable);
+    </script>
+</body>
+</html>
