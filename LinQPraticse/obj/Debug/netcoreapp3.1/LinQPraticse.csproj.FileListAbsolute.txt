@@ -1,0 +1,14 @@
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\bin\Debug\netcoreapp3.1\LinQPraticse.exe
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\bin\Debug\netcoreapp3.1\LinQPraticse.deps.json
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\bin\Debug\netcoreapp3.1\LinQPraticse.runtimeconfig.json
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\bin\Debug\netcoreapp3.1\LinQPraticse.runtimeconfig.dev.json
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\bin\Debug\netcoreapp3.1\LinQPraticse.dll
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\bin\Debug\netcoreapp3.1\LinQPraticse.pdb
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\obj\Debug\netcoreapp3.1\LinQPraticse.csproj.AssemblyReference.cache
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\obj\Debug\netcoreapp3.1\LinQPraticse.GeneratedMSBuildEditorConfig.editorconfig
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\obj\Debug\netcoreapp3.1\LinQPraticse.AssemblyInfoInputs.cache
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\obj\Debug\netcoreapp3.1\LinQPraticse.AssemblyInfo.cs
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\obj\Debug\netcoreapp3.1\LinQPraticse.csproj.CoreCompileInputs.cache
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\obj\Debug\netcoreapp3.1\LinQPraticse.dll
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\obj\Debug\netcoreapp3.1\LinQPraticse.pdb
+G:\project\GithubRepos\dotNetCore\LinQPraticse\LinQPraticse\obj\Debug\netcoreapp3.1\LinQPraticse.genruntimeconfig.cache
