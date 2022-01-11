@@ -1,0 +1,14 @@
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\bin\Debug\netcoreapp3.1\LinQPractiseEx.exe
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\bin\Debug\netcoreapp3.1\LinQPractiseEx.deps.json
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\bin\Debug\netcoreapp3.1\LinQPractiseEx.runtimeconfig.json
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\bin\Debug\netcoreapp3.1\LinQPractiseEx.runtimeconfig.dev.json
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\bin\Debug\netcoreapp3.1\LinQPractiseEx.dll
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\bin\Debug\netcoreapp3.1\LinQPractiseEx.pdb
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\obj\Debug\netcoreapp3.1\LinQPractiseEx.csproj.AssemblyReference.cache
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\obj\Debug\netcoreapp3.1\LinQPractiseEx.GeneratedMSBuildEditorConfig.editorconfig
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\obj\Debug\netcoreapp3.1\LinQPractiseEx.AssemblyInfoInputs.cache
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\obj\Debug\netcoreapp3.1\LinQPractiseEx.AssemblyInfo.cs
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\obj\Debug\netcoreapp3.1\LinQPractiseEx.csproj.CoreCompileInputs.cache
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\obj\Debug\netcoreapp3.1\LinQPractiseEx.dll
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\obj\Debug\netcoreapp3.1\LinQPractiseEx.pdb
+G:\project\GithubRepos\dotNetCore\LinQPractiseEx\LinQPractiseEx\obj\Debug\netcoreapp3.1\LinQPractiseEx.genruntimeconfig.cache
