@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQueryEX</title>
+    <script type = "text/javascript" 
+    src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+
+    <Script type="text/javascript" language = "javascript">
+        $(document).ready(function(){
+            var Employee = [
+                {'EId':'01','EName':'Raj','ESalary':'10000'},
+                {'EId':'02','EName':'Kamal','ESalary':'20000'},
+                {'EId':'03','EName':'Kasan','ESalary':'25000'},
+                {'EId':'04','EName':'Ajith','ESalary':'30000'},
+                {'EId':'05','EName':'Vijay','ESalary':'50000'}
+            ]
+            var content = "<tr>"
+            for(i=0; i<Employee.length; i++){
+                content += '<tr><td>' + Employee[i].EId + '</td>';
+                content += '<td>' + Employee[i].EName + '</td>';
+                content += '<td>' + Employee[i].ESalary + '</td></tr>';
+            }
+            content += "</tr>"
+
+            $('#table').append(content);
+        })
+    </Script>
+</head>
+<body>
+    <h1>Employee Details Table</h1>
+    <div style="text-align: center;">
+        <table id="table" border=".1">
+            <tr>
+                <th scope="col">Employees Id</th>
+                <th scope="col">Employees Name</th>
+                <th scope="col">Emplyoees Salary</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
