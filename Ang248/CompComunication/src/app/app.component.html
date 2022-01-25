@@ -1,0 +1,15 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<router-outlet></router-outlet>
+<h2>Parent Data</h2>
+<label>Enter a value : </label>
+<input type="text" #pdata (keyup) ="0"><br>
+<label>Value from child : {{childData}}</label>
+<app-product-list (childEvent) ="catchchildEvent($event)"  [parentData] = "pdata.value"></app-product-list>
