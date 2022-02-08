@@ -1,0 +1,14 @@
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\bin\Debug\netcoreapp3.1\revString.exe
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\bin\Debug\netcoreapp3.1\revString.deps.json
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\bin\Debug\netcoreapp3.1\revString.runtimeconfig.json
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\bin\Debug\netcoreapp3.1\revString.runtimeconfig.dev.json
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\bin\Debug\netcoreapp3.1\revString.dll
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\bin\Debug\netcoreapp3.1\revString.pdb
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\obj\Debug\netcoreapp3.1\revString.csproj.AssemblyReference.cache
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\obj\Debug\netcoreapp3.1\revString.GeneratedMSBuildEditorConfig.editorconfig
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\obj\Debug\netcoreapp3.1\revString.AssemblyInfoInputs.cache
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\obj\Debug\netcoreapp3.1\revString.AssemblyInfo.cs
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\obj\Debug\netcoreapp3.1\revString.csproj.CoreCompileInputs.cache
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\obj\Debug\netcoreapp3.1\revString.dll
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\obj\Debug\netcoreapp3.1\revString.pdb
+G:\project\GithubRepos\248-Venkatesh\dotNetBackEnd\revString\revString\obj\Debug\netcoreapp3.1\revString.genruntimeconfig.cache
