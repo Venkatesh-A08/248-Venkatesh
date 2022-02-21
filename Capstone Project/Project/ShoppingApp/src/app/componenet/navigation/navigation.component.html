@@ -1,0 +1,29 @@
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <h1 class="navbar-brand">Ordering System </h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" (click)="gotoDash()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="addProduct()">Product</a>
+        </li>
+      </ul>
+
+      <div class="d-flex">
+        
+        <a class="nav-link" (click)="orders()" style="margin-right: 20px;">My Orders</a>
+        
+        <a class="nav-link" (click)="cart()" style="color:white; margin-right: 20px;">
+          <mat-icon style="color:white;">add_shopping_cart</mat-icon>
+          <span style="font-size: 10px; position: absolute;" class="badge bg-danger">{{badgenumber}}</span>
+        </a>
+        <button class=" btn btn-outline-success" routerLink="/login">Logout</button>
+      </div>
+    </div>
+  </div>
+</nav>

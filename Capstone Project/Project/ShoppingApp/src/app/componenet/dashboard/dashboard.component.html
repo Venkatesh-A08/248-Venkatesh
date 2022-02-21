@@ -1,0 +1,34 @@
+<app-navigation></app-navigation>
+<nav class="navbar">
+        <div class="input-group">
+            <input type="text" class="form-control" name="description" [(ngModel)]="description" 
+      placeholder="Enter to Search">
+            <div class="input-group-prepend">
+                <button class ="btn btn-warning input-group-text" (click) ="Search()"> Search </button>
+          </div>
+        </div>
+</nav>
+<div class="container-fulid">
+  <div class="container">
+    <div class="row">
+      <ng-container *ngFor="let pd of productlist">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://images.samsung.com/is/image/samsung/assets/in/smartphones/mobiles-by-memory-storage/in-galaxy-m01.jpg?$720_N(384)_JPG$" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-text" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                  {{pd.description}}</h3>
+                  <p class="card-title"><strong>Rs.{{pd.unitPrice}}</strong></p>
+                  <button type="button" (click)="addtocart(pd)" class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>
+
